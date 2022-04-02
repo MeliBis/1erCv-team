@@ -1,0 +1,136 @@
+:root{
+    --texto-color:rgb(231, 227, 227);
+    --fondo-color:#35625b;
+    --acento-color:rgb(201, 111, 111);
+    --parrafo:12px;
+    --hover:#89ac2a;
+    --link:rgb(182, 102, 27)
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+  /*   font-size: 62.5%; */
+  background-color: var(--fondo-color) ;
+ width: 100%;
+    min-width: 320px;
+    text-align: center;
+}
+body{
+    color: var(--texto-color);
+    display: inline;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column; /* flex */
+    justify-content: center;
+    width: 100%;
+    min-width: 320px;
+    text-align: center;
+}
+.contenedor_principal{
+    background-color: #454545;
+    display: flex;
+    flex-direction: column; /* flex */
+    justify-content: center;
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;    /* centrar contenido */
+}
+header{
+    font-family: font-family: 'Quicksand', sans-serif; 
+    font-size:12px;
+}
+div img{
+    width: 200px;
+    border:10px #ffff solid ;
+    margin-top: 10px;
+}
+.header-text{
+    padding: 3px;
+}
+h1,h2{
+    color: #98b9b3;
+}
+.header-text, h1{
+    margin-bottom: -10px;
+}
+.header-text p{
+    margin-bottom: 15px;
+}
+/*------------------------------- primera seccion */
+.main-content{
+    display: inline;
+    justify-content:center ;
+}
+.main-content p{
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.main-content_second{
+    display: flex;
+    margin-left: 40px;
+}
+.main-content_second_edad{
+  /*   margin-right: 40px; */
+    position: relative;
+    top:45%;
+    left: 10%;
+    
+}
+.main-content_second_nac{
+    position: relative;
+   /*  top: 35%; */
+    left: 30%;
+   
+}
+/* ------------------------------- la segunda sección */
+
+.container a{
+   text-decoration: none;
+   color:var(--link);
+   margin-bottom: 70px;
+   
+}
+.container-pais{
+    /* margin-top:20px ; */
+}
+
+.container a:hover{
+    color:var(--hover);
+}
+.container-ciudad{
+    margin-bottom: ;
+}
+
+/* ----------------------------------------3a seccion */
+.container-exp_lab{
+    margin: 30px;
+}
+/* ----------------------------------------4a eccion */
+.container-hobbies_lista {
+    list-style: none;
+}
+.container-hobbies_lista ul{
+    list-style: none;
+}
+.iconos img{
+    width: 50px;
+    border-radius: 40%;
+}
+.fin{
+    margin-top: 30px;
+    background-color:var(--link) ;
+}
+.fin a{
+    color: var(--texto-color);
+    text-decoration: none;
+    font-size: 25px;
+    margin: 10px;
+}
+.fin a:hover{
+    color: var(--hover);
+}
